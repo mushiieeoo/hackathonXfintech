@@ -1,0 +1,23 @@
+*.zip
+# Secret credentials — never push these
+.env
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node modules — too big to push
+node_modules/
+
+# Vite build output
+dist/
+
+# VS Code settings
+.vscode/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
